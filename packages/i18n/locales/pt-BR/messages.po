@@ -1164,9 +1164,15 @@ msgstr "{name} é integrado e não pode ser removido"
 msgid "serverError.plugins.marketplaceReserved"
 msgstr "{name} é integrado e não pode ser substituído"
 
+msgid "{name} is installed"
+msgstr "{name} está instalado"
+
 #. js-lingui-explicit-id
 msgid "serverError.plugins.marketplaceNotAdded"
 msgstr "{name} não foi adicionado"
+
+msgid "{name} isn't installed yet"
+msgstr "{name} ainda não está instalado"
 
 msgid "{name} plugin"
 msgstr "Plugin {name}"
@@ -1383,6 +1389,9 @@ msgstr "{threshold, plural, one {# PR de agente mesclado} other {# PRs de agente
 
 msgid "{toolName} interrupted"
 msgstr "{toolName} interrompida"
+
+msgid "{tools} aren't set up yet. You can set them up later in Settings."
+msgstr "{tools} ainda não estão configurados. Você pode configurá-los depois em Configurações."
 
 msgid "{total, plural, one {{done} of # chat moved} other {{done} of # chats moved}}"
 msgstr "{total, plural, one {{done} de # chat movido} other {{done} de # chats movidos}}"
@@ -4207,6 +4216,9 @@ msgstr "Superfícies de chat: mensagens, raciocínio, sugestões"
 msgid "Chats"
 msgstr "Chats"
 
+msgid "Chats and tasks need {agents}. You can install it later in Settings → Agents, or when you start your first chat."
+msgstr "Chats e tarefas precisam de {agents}. Você pode instalá-lo depois em Configurações → Agentes, ou quando iniciar seu primeiro chat."
+
 msgid "Check again"
 msgstr "Verificar novamente"
 
@@ -6188,6 +6200,9 @@ msgstr "Não foi possível acessar a nuvem para {0}: {1}"
 msgid "Couldn't reach GitHub. Check your internet connection and try again."
 msgstr "Não foi possível acessar o GitHub. Verifique sua conexão com a internet e tente novamente."
 
+msgid "Couldn't reach the download server. Check your internet connection and try again."
+msgstr "Não foi possível acessar o servidor de download. Verifique sua conexão com a internet e tente novamente."
+
 msgid "Couldn't reach the model provider"
 msgstr "Não foi possível conectar ao provedor do modelo"
 
@@ -6269,6 +6284,9 @@ msgstr "Não foi possível enviar ao agente"
 
 msgid "Couldn't send your message. It's back in the composer."
 msgstr "Não foi possível enviar sua mensagem. Ela voltou para o campo de texto."
+
+msgid "Couldn't set up {name} on this Mac."
+msgstr "Não foi possível configurar o {name} neste Mac."
 
 msgid "Couldn't stage changes"
 msgstr "Não foi possível adicionar as alterações ao stage"
@@ -7253,6 +7271,9 @@ msgstr "O ditado não está disponível neste dispositivo"
 msgid "Dictation is not available right now"
 msgstr "O ditado não está disponível no momento"
 
+msgid "Did the page show a code? Paste it here"
+msgstr "A página mostrou um código? Cole aqui"
+
 msgid "Didn't hear back"
 msgstr "Sem resposta"
 
@@ -7579,6 +7600,9 @@ msgstr "baixada"
 
 msgid "Downloading"
 msgstr "Baixando"
+
+msgid "Downloading {name}…"
+msgstr "Baixando {name}…"
 
 msgid "Downloading from Apple needs an Apple ID. The install can need about 20 GB of free space."
 msgstr "Baixar da Apple exige um Apple ID. A instalação pode precisar de cerca de 20 GB de espaço livre."
@@ -8963,6 +8987,9 @@ msgstr "Finder"
 
 msgid "Finish review"
 msgstr "Concluir revisão"
+
+msgid "Finish signing in in your browser. This updates on its own."
+msgstr "Termine de entrar no seu navegador. Isso se atualiza sozinho."
 
 msgid "Finished"
 msgstr "Concluído"
@@ -10384,6 +10411,9 @@ msgstr "Instalar o GitHub App"
 msgid "Install GitHub CLI"
 msgstr "Instalar o GitHub CLI"
 
+msgid "Install it yourself"
+msgstr "Instalar você mesmo"
+
 msgid "Install on your iPhone"
 msgstr "Instalar no seu iPhone"
 
@@ -10411,6 +10441,9 @@ msgstr "Instale, autorize e defina o escopo de servidores MCP em todas as suas �
 msgid "Install."
 msgstr "Instale."
 
+msgid "Installation"
+msgstr "Instalação"
+
 msgid "Installed"
 msgstr "Instalado"
 
@@ -10418,11 +10451,23 @@ msgctxt "plugin access"
 msgid "Installed"
 msgstr "Instalado"
 
+msgid "Installed · {version}"
+msgstr "Instalado · {version}"
+
+msgid "Installed · sign in with your ChatGPT account"
+msgstr "Instalado · entre com sua conta do ChatGPT"
+
+msgid "Installed · sign in with your Claude account"
+msgstr "Instalado · entre com sua conta do Claude"
+
 msgid "Installed by your organization"
 msgstr "Instalado pela sua organização"
 
 msgid "Installed it another way, like Homebrew? Click Check again."
 msgstr "Instalou de outro jeito, como pelo Homebrew? Clique em Verificar novamente."
+
+msgid "Installed it another way? Click Check again."
+msgstr "Instalou de outro jeito? Clique em Verificar novamente."
 
 msgid "Installed on {appAccountLogin}"
 msgstr "Instalado em {appAccountLogin}"
@@ -10439,6 +10484,9 @@ msgstr "Instalando..."
 
 msgid "Installing…"
 msgstr "Instalando…"
+
+msgid "Installing… Nothing else on your Mac changes."
+msgstr "Instalando… Nada mais muda no seu Mac."
 
 msgid "Installs Paradev on a machine you can reach with ssh, signs Paradev in to your account, and keeps it running as a service."
 msgstr "Instala o Paradev em uma máquina que você acessa por ssh, conecta o Paradev à sua conta e o mantém em execução como serviço."
@@ -13319,8 +13367,14 @@ msgstr "Fora do canal"
 msgid "Not included"
 msgstr "Não incluído"
 
+msgid "Not installed"
+msgstr "Não instalado"
+
 msgid "Not installed · needed for private repos and pull requests"
 msgstr "Não instalado · necessário para repositórios privados e pull requests"
+
+msgid "Not installed · runs your chats and tasks"
+msgstr "Não instalado · executa seus chats e tarefas"
 
 msgid "Not loaded"
 msgstr "Não carregado"
@@ -13357,6 +13411,9 @@ msgstr "Não configurado em {hostName}"
 
 msgid "Not set up on this host"
 msgstr "Não configurado neste host"
+
+msgid "not signed in"
+msgstr "sem login"
 
 msgid "Not signed in · needed for private repos and pull requests"
 msgstr "Sem login · necessário para repositórios privados e pull requests"
@@ -14195,6 +14252,9 @@ msgstr "Abrir a janela de nova área de trabalho"
 msgid "Open the original workspace"
 msgstr "Abrir a área de trabalho original"
 
+msgid "Open the page again"
+msgstr "Abrir a página novamente"
+
 msgid "Open the resource usage view in the command palette"
 msgstr "Abrir a visualização de uso de recursos na paleta de comandos"
 
@@ -14246,6 +14306,9 @@ msgstr "Abrindo na interface de chat…"
 msgid "Opening pages"
 msgstr "Abertura de páginas"
 
+msgid "Opening the sign-in page…"
+msgstr "Abrindo a página de login…"
+
 msgid "Operator"
 msgstr "Operador"
 
@@ -14272,6 +14335,9 @@ msgstr "Opcional. Nos ajuda a entender o que funciona."
 
 msgid "Options"
 msgstr "Opções"
+
+msgid "Or sign in from a terminal:"
+msgstr "Ou entre por um terminal:"
 
 msgid "Orange"
 msgstr "Laranja"
@@ -14536,6 +14602,9 @@ msgstr "App Paradev"
 msgid "Paradev Automations"
 msgstr "Automações do Paradev"
 
+msgid "Paradev can install {name} on a Mac only. Install it yourself, then click Check again."
+msgstr "O Paradev só consegue instalar o {name} em um Mac. Instale você mesmo e clique em Verificar novamente."
+
 msgid "Paradev CLI"
 msgstr "CLI do Paradev"
 
@@ -14680,6 +14749,9 @@ msgstr "O Paradev roda localmente nas máquinas do seu time. Não guardamos seu 
 msgid "Paradev started as a hackathon project in November 2025. It was a simple desktop app for managing worktrees."
 msgstr "O Paradev começou como um projeto de hackathon em novembro de 2025. Era um app de desktop simples para gerenciar worktrees."
 
+msgid "Paradev still can't find {name}."
+msgstr "O Paradev ainda não encontra o {name}."
+
 msgid "Paradev still can't find GitHub CLI."
 msgstr "O Paradev ainda não encontra o GitHub CLI."
 
@@ -14693,8 +14765,8 @@ msgstr "Paradev UI"
 msgid "Paradev uses {0} of system RAM"
 msgstr "O Paradev usa {0} da RAM do sistema"
 
-msgid "Paradev uses Git and the GitHub CLI to clone repos and open pull requests. You can also do this later."
-msgstr "O Paradev usa o Git e o GitHub CLI para clonar repositórios e abrir pull requests. Você também pode fazer isso depois."
+msgid "Paradev uses these to clone repos, open pull requests and run your tasks. You can also do this later."
+msgstr "O Paradev usa estas ferramentas para clonar repositórios, abrir pull requests e executar suas tarefas. Você também pode fazer isso depois."
 
 msgid "Paradev vs the Alternatives"
 msgstr "Paradev e as alternativas"
@@ -17959,9 +18031,6 @@ msgstr "Configurar um host via SSH"
 msgid "Set up an automation"
 msgstr "Configure uma automação"
 
-msgid "Set up Git and GitHub"
-msgstr "Configurar Git e GitHub"
-
 msgid "Set up once"
 msgstr "Configure uma vez"
 
@@ -17976,6 +18045,9 @@ msgstr "Configurar este projeto para o Paradev"
 
 msgid "Set up your organization to get started"
 msgstr "Configure sua organização para começar"
+
+msgid "Set up your tools"
+msgstr "Configure suas ferramentas"
 
 msgid "Setting an installed plugin back to Available keeps everyone's copy; they can then remove it. Unavailable removes it."
 msgstr "Voltar um plugin instalado para Disponível mantém a cópia de cada um; depois eles podem removê-la. Indisponível o remove."
@@ -18413,6 +18485,9 @@ msgstr "Cadastrar-se com o GitHub"
 msgid "Sign up with Google"
 msgstr "Cadastrar-se com o Google"
 
+msgid "Sign-in code"
+msgstr "Código de login"
+
 msgid "Sign-in didn't finish"
 msgstr "O login não foi concluído"
 
@@ -18437,8 +18512,20 @@ msgstr "Taxa de cadastros concluídos"
 msgid "Sign-up steps"
 msgstr "Etapas de cadastro"
 
+msgid "signed in"
+msgstr "conectado"
+
+msgid "Signed in"
+msgstr "Conectado"
+
 msgid "Signed in · clones private repos and opens pull requests"
 msgstr "Conectado · clona repositórios privados e abre pull requests"
+
+msgid "signed in as {account}"
+msgstr "conectado como {account}"
+
+msgid "Signed in as {account}"
+msgstr "Conectado como {account}"
 
 msgid "Signed in as <0>{userName}</0>"
 msgstr "Conectado como <0>{userName}</0>"
@@ -18547,6 +18634,12 @@ msgstr "Pular o Git por enquanto?"
 
 msgid "Skip GitHub for now?"
 msgstr "Pular o GitHub por enquanto?"
+
+msgid "Skip setup for now?"
+msgstr "Pular a configuração por enquanto?"
+
+msgid "Skip the coding agent for now?"
+msgstr "Pular o agente de código por enquanto?"
 
 msgid "Skipped"
 msgstr "Ignoradas"
@@ -19889,6 +19982,9 @@ msgstr "Surge o despachante"
 msgid "The download didn't finish. Try again."
 msgstr "O download não terminou. Tente novamente."
 
+msgid "The download isn't signed by {vendor}, so Paradev didn't install it."
+msgstr "O download não é assinado pela {vendor}, então o Paradev não o instalou."
+
 msgid "The download looked wrong, so Paradev didn't install it. Try again."
 msgstr "O download parecia incorreto, então o Paradev não o instalou. Tente novamente."
 
@@ -20313,6 +20409,9 @@ msgstr "Este chat é longo, então só a parte mais recente é exibida. Ele abre
 
 msgid "This chat may have been removed or you may not have access."
 msgstr "Este chat pode ter sido removido ou você pode não ter acesso."
+
+msgid "This chat needs {name}. Paradev can install it for you. It takes about a minute, and nothing else on your Mac changes."
+msgstr "Este chat precisa do {name}. O Paradev pode instalá-lo para você. Leva cerca de um minuto, e nada mais muda no seu Mac."
 
 msgid "This chat stopped because the conversation continued in a terminal."
 msgstr "Este chat parou porque a conversa continuou em um terminal."
@@ -21038,6 +21137,9 @@ msgstr "Tente outro termo de busca ou outro lugar."
 msgid "Try again"
 msgstr "Tentar novamente"
 
+msgid "Try again to start this chat."
+msgstr "Tente novamente para iniciar este chat."
+
 msgid "Try again, or restart the host service from the Paradev tray menu."
 msgstr "Tente novamente ou reinicie o serviço do host pelo menu do Paradev na bandeja do sistema."
 
@@ -21583,6 +21685,9 @@ msgstr "Usar “{0}”"
 
 msgid "Use a workspace-relative path or an absolute folder."
 msgstr "Use um caminho relativo à área de trabalho ou uma pasta absoluta."
+
+msgid "Use another agent"
+msgstr "Usar outro agente"
 
 msgid "Use another port"
 msgstr "Usar outra porta"
@@ -22850,6 +22955,9 @@ msgstr "Sua organização atingiu o limite de uso na nuvem. Esta área de trabal
 
 msgid "Your own accounts. Your organization's integrations let Paradev reach its tools; connecting yours makes the work Paradev does for you show up as you."
 msgstr "Suas próprias contas. As integrações da sua organização permitem que o Paradev acesse as ferramentas dela; conectar as suas faz o trabalho que o Paradev faz por você aparecer em seu nome."
+
+msgid "your own install"
+msgstr "sua própria instalação"
 
 msgid "Your Paradev download is starting."
 msgstr "O download do Paradev está começando."

@@ -1164,9 +1164,15 @@ msgstr "{name} je vestavěný a nelze jej odebrat"
 msgid "serverError.plugins.marketplaceReserved"
 msgstr "{name} je vestavěný a nelze jej nahradit"
 
+msgid "{name} is installed"
+msgstr "{name} je nainstalovaný"
+
 #. js-lingui-explicit-id
 msgid "serverError.plugins.marketplaceNotAdded"
 msgstr "{name} není přidán"
+
+msgid "{name} isn't installed yet"
+msgstr "{name} zatím není nainstalovaný"
 
 msgid "{name} plugin"
 msgstr "Plugin {name}"
@@ -1383,6 +1389,9 @@ msgstr "{threshold, plural, one {sloučen # PR agenta} few {sloučeny # PR agent
 
 msgid "{toolName} interrupted"
 msgstr "{toolName} přerušeno"
+
+msgid "{tools} aren't set up yet. You can set them up later in Settings."
+msgstr "{tools} zatím nejsou nastavené. Můžete je nastavit později v Nastavení."
 
 msgid "{total, plural, one {{done} of # chat moved} other {{done} of # chats moved}}"
 msgstr "{total, plural, one {Přesunuto {done} z # chatu} few {Přesunuto {done} z # chatů} many {Přesunuto {done} z # chatu} other {Přesunuto {done} z # chatů}}"
@@ -4207,6 +4216,9 @@ msgstr "Plochy chatu: zprávy, uvažování, návrhy"
 msgid "Chats"
 msgstr "Chaty"
 
+msgid "Chats and tasks need {agents}. You can install it later in Settings → Agents, or when you start your first chat."
+msgstr "Chaty a úlohy potřebují {agents}. Můžete ho nainstalovat později v Nastavení → Agenti, nebo až spustíte první chat."
+
 msgid "Check again"
 msgstr "Zkontrolovat znovu"
 
@@ -6188,6 +6200,9 @@ msgstr "Nepodařilo se spojit s cloudem pro {0}: {1}"
 msgid "Couldn't reach GitHub. Check your internet connection and try again."
 msgstr "Nepodařilo se spojit s GitHubem. Zkontrolujte připojení k internetu a zkuste to znovu."
 
+msgid "Couldn't reach the download server. Check your internet connection and try again."
+msgstr "Nepodařilo se spojit se serverem pro stahování. Zkontrolujte připojení k internetu a zkuste to znovu."
+
 msgid "Couldn't reach the model provider"
 msgstr "Nepodařilo se spojit s poskytovatelem modelu"
 
@@ -6269,6 +6284,9 @@ msgstr "Nepodařilo se odeslat agentovi"
 
 msgid "Couldn't send your message. It's back in the composer."
 msgstr "Zprávu se nepodařilo odeslat. Je zpět v poli pro psaní."
+
+msgid "Couldn't set up {name} on this Mac."
+msgstr "{name} se na tomto Macu nepodařilo nastavit."
 
 msgid "Couldn't stage changes"
 msgstr "Nepodařilo se připravit změny"
@@ -7253,6 +7271,9 @@ msgstr "Diktování není na tomto zařízení dostupné"
 msgid "Dictation is not available right now"
 msgstr "Diktování teď není dostupné"
 
+msgid "Did the page show a code? Paste it here"
+msgstr "Ukázala stránka kód? Vložte ho sem"
+
 msgid "Didn't hear back"
 msgstr "Bez odpovědi"
 
@@ -7579,6 +7600,9 @@ msgstr "staženo"
 
 msgid "Downloading"
 msgstr "Stahování"
+
+msgid "Downloading {name}…"
+msgstr "Stahuji {name}…"
 
 msgid "Downloading from Apple needs an Apple ID. The install can need about 20 GB of free space."
 msgstr "Stažení od Applu vyžaduje Apple ID. Instalace může potřebovat asi 20 GB volného místa."
@@ -8963,6 +8987,9 @@ msgstr "Finder"
 
 msgid "Finish review"
 msgstr "Dokončit revizi"
+
+msgid "Finish signing in in your browser. This updates on its own."
+msgstr "Dokončete přihlášení v prohlížeči. Aktualizuje se to samo."
 
 msgid "Finished"
 msgstr "Dokončeno"
@@ -10384,6 +10411,9 @@ msgstr "Nainstalovat GitHub App"
 msgid "Install GitHub CLI"
 msgstr "Nainstalovat GitHub CLI"
 
+msgid "Install it yourself"
+msgstr "Nainstalovat ručně"
+
 msgid "Install on your iPhone"
 msgstr "Nainstalujte na iPhone"
 
@@ -10411,6 +10441,9 @@ msgstr "Instalujte, autorizujte a omezujte MCP servery napříč všemi pracovn�
 msgid "Install."
 msgstr "Nainstalujte."
 
+msgid "Installation"
+msgstr "Instalace"
+
 msgid "Installed"
 msgstr "Nainstalováno"
 
@@ -10418,11 +10451,23 @@ msgctxt "plugin access"
 msgid "Installed"
 msgstr "Nainstalováno"
 
+msgid "Installed · {version}"
+msgstr "Nainstalováno · {version}"
+
+msgid "Installed · sign in with your ChatGPT account"
+msgstr "Nainstalováno · přihlaste se účtem ChatGPT"
+
+msgid "Installed · sign in with your Claude account"
+msgstr "Nainstalováno · přihlaste se účtem Claude"
+
 msgid "Installed by your organization"
 msgstr "Nainstalováno vaší organizací"
 
 msgid "Installed it another way, like Homebrew? Click Check again."
 msgstr "Nainstalovali jste ho jinak, třeba přes Homebrew? Klikněte na Zkontrolovat znovu."
+
+msgid "Installed it another way? Click Check again."
+msgstr "Nainstalovali jste ho jinak? Klikněte na Zkontrolovat znovu."
 
 msgid "Installed on {appAccountLogin}"
 msgstr "Nainstalováno na {appAccountLogin}"
@@ -10439,6 +10484,9 @@ msgstr "Instaluji..."
 
 msgid "Installing…"
 msgstr "Instaluji…"
+
+msgid "Installing… Nothing else on your Mac changes."
+msgstr "Instaluji… Na vašem Macu se nic jiného nezmění."
 
 msgid "Installs Paradev on a machine you can reach with ssh, signs Paradev in to your account, and keeps it running as a service."
 msgstr "Nainstaluje Paradev na počítač dostupný přes ssh, přihlásí Paradev k vašemu účtu a udržuje Paradev spuštěný jako službu."
@@ -13319,8 +13367,14 @@ msgstr "Není v kanálu"
 msgid "Not included"
 msgstr "Není zahrnuto"
 
+msgid "Not installed"
+msgstr "Nenainstalováno"
+
 msgid "Not installed · needed for private repos and pull requests"
 msgstr "Nenainstalováno · potřeba pro soukromé repozitáře a pull requesty"
+
+msgid "Not installed · runs your chats and tasks"
+msgstr "Nenainstalováno · spouští vaše chaty a úlohy"
 
 msgid "Not loaded"
 msgstr "Nenačteno"
@@ -13357,6 +13411,9 @@ msgstr "Na {hostName} není nastaveno"
 
 msgid "Not set up on this host"
 msgstr "Na tomto hostu není nastaveno"
+
+msgid "not signed in"
+msgstr "nepřihlášeno"
 
 msgid "Not signed in · needed for private repos and pull requests"
 msgstr "Nepřihlášeno · potřeba pro soukromé repozitáře a pull requesty"
@@ -14195,6 +14252,9 @@ msgstr "Otevřít okno nového pracovního prostoru"
 msgid "Open the original workspace"
 msgstr "Otevřít původní pracovní prostor"
 
+msgid "Open the page again"
+msgstr "Znovu otevřít stránku"
+
 msgid "Open the resource usage view in the command palette"
 msgstr "Otevřít v paletě příkazů přehled využití prostředků"
 
@@ -14246,6 +14306,9 @@ msgstr "Otevírání v rozhraní chatu…"
 msgid "Opening pages"
 msgstr "Otevírání stránek"
 
+msgid "Opening the sign-in page…"
+msgstr "Otevírám přihlašovací stránku…"
+
 msgid "Operator"
 msgstr "Operátor"
 
@@ -14272,6 +14335,9 @@ msgstr "Nepovinné. Pomůže nám zjistit, co funguje."
 
 msgid "Options"
 msgstr "Možnosti"
+
+msgid "Or sign in from a terminal:"
+msgstr "Nebo se přihlaste z terminálu:"
 
 msgid "Orange"
 msgstr "Oranžová"
@@ -14536,6 +14602,9 @@ msgstr "Aplikace Paradev"
 msgid "Paradev Automations"
 msgstr "Automatizace Paradev"
 
+msgid "Paradev can install {name} on a Mac only. Install it yourself, then click Check again."
+msgstr "Paradev umí nainstalovat {name} jen na Macu. Nainstalujte ho ručně a pak klikněte na Zkontrolovat znovu."
+
 msgid "Paradev CLI"
 msgstr "Paradev CLI"
 
@@ -14680,6 +14749,9 @@ msgstr "Paradev běží lokálně na počítačích vašich vývojářů. Neukl�
 msgid "Paradev started as a hackathon project in November 2025. It was a simple desktop app for managing worktrees."
 msgstr "Paradev vznikl jako projekt na hackathonu v listopadu 2025. Byla to jednoduchá desktopová aplikace na správu worktree."
 
+msgid "Paradev still can't find {name}."
+msgstr "Paradev stále nemůže najít {name}."
+
 msgid "Paradev still can't find GitHub CLI."
 msgstr "Paradev stále nemůže najít GitHub CLI."
 
@@ -14693,8 +14765,8 @@ msgstr "Paradev UI"
 msgid "Paradev uses {0} of system RAM"
 msgstr "Paradev využívá {0} systémové RAM"
 
-msgid "Paradev uses Git and the GitHub CLI to clone repos and open pull requests. You can also do this later."
-msgstr "Paradev používá Git a GitHub CLI ke klonování repozitářů a otevírání pull requestů. Můžete to udělat i později."
+msgid "Paradev uses these to clone repos, open pull requests and run your tasks. You can also do this later."
+msgstr "Paradev je používá ke klonování repozitářů, otevírání pull requestů a spouštění vašich úloh. Můžete to udělat i později."
 
 msgid "Paradev vs the Alternatives"
 msgstr "Paradev vs. alternativy"
@@ -17959,9 +18031,6 @@ msgstr "Nastavit host přes SSH"
 msgid "Set up an automation"
 msgstr "Nastavte automatizaci"
 
-msgid "Set up Git and GitHub"
-msgstr "Nastavit Git a GitHub"
-
 msgid "Set up once"
 msgstr "Nastavte jednou"
 
@@ -17976,6 +18045,9 @@ msgstr "Připravit tento projekt pro Paradev"
 
 msgid "Set up your organization to get started"
 msgstr "Nastavte si organizaci a můžete začít"
+
+msgid "Set up your tools"
+msgstr "Nastavte si nástroje"
 
 msgid "Setting an installed plugin back to Available keeps everyone's copy; they can then remove it. Unavailable removes it."
 msgstr "Když nainstalovaný plugin vrátíte na Dostupné, všem zůstane jejich kopie; pak ji mohou odebrat. Nedostupné ho odebere."
@@ -18413,6 +18485,9 @@ msgstr "Zaregistrovat se přes GitHub"
 msgid "Sign up with Google"
 msgstr "Zaregistrovat se přes Google"
 
+msgid "Sign-in code"
+msgstr "Přihlašovací kód"
+
 msgid "Sign-in didn't finish"
 msgstr "Přihlášení se nedokončilo"
 
@@ -18437,8 +18512,20 @@ msgstr "Dokončení registrace"
 msgid "Sign-up steps"
 msgstr "Kroky registrace"
 
+msgid "signed in"
+msgstr "přihlášeno"
+
+msgid "Signed in"
+msgstr "Přihlášeno"
+
 msgid "Signed in · clones private repos and opens pull requests"
 msgstr "Přihlášeno · klonuje soukromé repozitáře a otevírá pull requesty"
+
+msgid "signed in as {account}"
+msgstr "přihlášeno jako {account}"
+
+msgid "Signed in as {account}"
+msgstr "Přihlášeno jako {account}"
 
 msgid "Signed in as <0>{userName}</0>"
 msgstr "Přihlášeni jako <0>{userName}</0>"
@@ -18547,6 +18634,12 @@ msgstr "Prozatím Git přeskočit?"
 
 msgid "Skip GitHub for now?"
 msgstr "Prozatím GitHub přeskočit?"
+
+msgid "Skip setup for now?"
+msgstr "Zatím přeskočit nastavení?"
+
+msgid "Skip the coding agent for now?"
+msgstr "Zatím přeskočit programovacího agenta?"
 
 msgid "Skipped"
 msgstr "Přeskočeno"
@@ -19889,6 +19982,9 @@ msgstr "Nastupuje dispečer"
 msgid "The download didn't finish. Try again."
 msgstr "Stahování se nedokončilo. Zkuste to znovu."
 
+msgid "The download isn't signed by {vendor}, so Paradev didn't install it."
+msgstr "Stažený soubor není podepsaný společností {vendor}, proto ho Paradev nenainstaloval."
+
 msgid "The download looked wrong, so Paradev didn't install it. Try again."
 msgstr "Stažený soubor vypadal špatně, proto ho Paradev nenainstaloval. Zkuste to znovu."
 
@@ -20313,6 +20409,9 @@ msgstr "Tento chat je dlouhý, proto se zobrazuje jen jeho nejnovější část.
 
 msgid "This chat may have been removed or you may not have access."
 msgstr "Tento chat mohl být odstraněn, nebo k němu nemáte přístup."
+
+msgid "This chat needs {name}. Paradev can install it for you. It takes about a minute, and nothing else on your Mac changes."
+msgstr "Tento chat potřebuje {name}. Paradev ho může nainstalovat za vás. Trvá to asi minutu a na vašem Macu se nic jiného nezmění."
 
 msgid "This chat stopped because the conversation continued in a terminal."
 msgstr "Tento chat se zastavil, protože konverzace pokračovala v terminálu."
@@ -21038,6 +21137,9 @@ msgstr "Zkuste jiný hledaný výraz nebo jiné místo."
 msgid "Try again"
 msgstr "Zkusit znovu"
 
+msgid "Try again to start this chat."
+msgstr "Zkuste to znovu a spusťte tento chat."
+
 msgid "Try again, or restart the host service from the Paradev tray menu."
 msgstr "Zkuste to znovu nebo restartujte službu hostitele z nabídky Paradev v systémové liště."
 
@@ -21583,6 +21685,9 @@ msgstr "Použít „{0}“"
 
 msgid "Use a workspace-relative path or an absolute folder."
 msgstr "Použijte cestu relativní k pracovnímu prostoru nebo absolutní složku."
+
+msgid "Use another agent"
+msgstr "Použít jiného agenta"
 
 msgid "Use another port"
 msgstr "Použít jiný port"
@@ -22850,6 +22955,9 @@ msgstr "Vaše organizace dosáhla limitu využití cloudu. Tento pracovní prost
 
 msgid "Your own accounts. Your organization's integrations let Paradev reach its tools; connecting yours makes the work Paradev does for you show up as you."
 msgstr "Vaše vlastní účty. Integrace vaší organizace umožňují Paradevu přístup k jejím nástrojům; když připojíte své účty, práce, kterou pro vás Paradev udělá, se zobrazí pod vaším jménem."
+
+msgid "your own install"
+msgstr "vaše vlastní instalace"
 
 msgid "Your Paradev download is starting."
 msgstr "Vaše stahování Paradevu se spouští."
